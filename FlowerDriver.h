@@ -1,7 +1,6 @@
 /// This is the main logic of the circit. I broke this out to allow to test this independantly from the arduino bs
 /// The flower diver, this will return the the logic to the audrnio loop on how to turn the two motors
 #pragma once
-#include <iostream> 
 
 // used to tell what command needs to be run
 enum MotorCommand { 
@@ -13,7 +12,6 @@ enum MotorCommand {
 
 class FlowerDriver
 {
-
     private:
     // This is the current motor position value, it starts at zero
     int current_motor_position; 
