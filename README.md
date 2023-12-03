@@ -1,4 +1,4 @@
-This is a small project to open and close a ardunio driven solar pannel flower
+This is a small project to open and close a ardunio driven solar panel flower. 
 
 # running with arduino
 Open the flower.ino file in the arduino IDE. Hit the upload button, There is some console logging you can see if you press the  Serial Monitor button.
